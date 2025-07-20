@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Capacitor } from '@capacitor/core';
-import { BarcodeScanner } from '@capacitor-mlkit/barcode-scanning';
+import { BarcodeScanner, GoogleBarcodeScannerModuleInstallProgressEvent, GoogleBarcodeScannerModuleInstallState } from '@capacitor-mlkit/barcode-scanning';
 import { BrowserMultiFormatReader, BarcodeFormat } from '@zxing/browser';
 import { DecodeHintType } from "@zxing/library";
 
@@ -18,9 +18,24 @@ export class BarcodeScannerService {
         await BarcodeScanner.requestPermissions();
       }
 
-      const isAvailable = await BarcodeScanner.isGoogleBarcodeScannerModuleAvailable();
-      if (!isAvailable) {
+      const availableRes = await BarcodeScanner.isGoogleBarcodeScannerModuleAvailable();
+      if (!availableRes.available) {
         await BarcodeScanner.installGoogleBarcodeScannerModule();
+
+        await new Promise<void>((resolve, reject) => {
+          const handler = (event: GoogleBarcodeScannerModuleInstallProgressEvent) => {
+            console.log('Install progress:', event.state);
+            if (event.state === GoogleBarcodeScannerModuleInstallState.COMPLETED) {
+              BarcodeScanner.removeAllListeners();
+              resolve();
+            } else if (event.state === GoogleBarcodeScannerModuleInstallState.FAILED) {
+              BarcodeScanner.removeAllListeners();
+              reject(new Error('Barcode Scanner module install failed'));
+            }
+          };
+
+          BarcodeScanner.addListener('googleBarcodeScannerModuleInstallProgress', handler);
+        });
       }
 
       const result = await BarcodeScanner.scan();
