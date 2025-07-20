@@ -21,6 +21,11 @@ export class BarcodeScannerService {
       throw new Error('No video element provided for web scanning');
     }
 
+    videoElement.onloadedmetadata = () => {
+      console.log('videoWidth', videoElement.videoWidth);
+      console.log('videoHeight', videoElement.videoHeight);
+    };
+
     const devices = await BrowserMultiFormatReader.listVideoInputDevices();
     const rearCamera = devices.find(d => /back|rear|environment/i.test(d.label)) || devices[0];
 
