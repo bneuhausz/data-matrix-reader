@@ -1,0 +1,119 @@
+{
+  "configVersion": 1,
+  "timestamp": 1753024369687,
+  "index": "/pwa-demo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-demo/chunk-2ME6MZQH.js",
+        "/pwa-demo/chunk-2YSZFPCQ.js",
+        "/pwa-demo/chunk-3QXY74KK.js",
+        "/pwa-demo/chunk-42C7ZIID.js",
+        "/pwa-demo/chunk-43OODBIE.js",
+        "/pwa-demo/chunk-4WFVMWDK.js",
+        "/pwa-demo/chunk-57YRIO75.js",
+        "/pwa-demo/chunk-AHF2SHA3.js",
+        "/pwa-demo/chunk-BPR2ZQS3.js",
+        "/pwa-demo/chunk-C5RQ2IC2.js",
+        "/pwa-demo/chunk-FA25AEA4.js",
+        "/pwa-demo/chunk-FMBY5GXM.js",
+        "/pwa-demo/chunk-FWQXJR7F.js",
+        "/pwa-demo/chunk-JGEA7HOG.js",
+        "/pwa-demo/chunk-JHI3MBHO.js",
+        "/pwa-demo/chunk-K572LGMY.js",
+        "/pwa-demo/chunk-M2X7KQLB.js",
+        "/pwa-demo/chunk-M7FLRKQF.js",
+        "/pwa-demo/chunk-NSJBRCF4.js",
+        "/pwa-demo/chunk-NYXSTOWG.js",
+        "/pwa-demo/chunk-O7BKAQHS.js",
+        "/pwa-demo/chunk-PMWHZUUE.js",
+        "/pwa-demo/chunk-R5HL6L5F.js",
+        "/pwa-demo/chunk-R5SHVWC7.js",
+        "/pwa-demo/chunk-ULUBRAOE.js",
+        "/pwa-demo/chunk-VCHLP75Z.js",
+        "/pwa-demo/chunk-VPYGZV4D.js",
+        "/pwa-demo/chunk-ZUQGWSGF.js",
+        "/pwa-demo/index.html",
+        "/pwa-demo/main-7PRVKQMM.js",
+        "/pwa-demo/polyfills-6BIPK22E.js",
+        "/pwa-demo/styles-JQSYE4E5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-demo/assets/icon/favicon.png",
+        "/pwa-demo/assets/shapes.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pwa-demo/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
+    "/pwa-demo/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
+    "/pwa-demo/chunk-2ME6MZQH.js": "d6cbd5c047ab53d7e6901001972a111f59a5fe18",
+    "/pwa-demo/chunk-2YSZFPCQ.js": "24059a303257ee4b1b2709f81e7640627fdaa6d9",
+    "/pwa-demo/chunk-3QXY74KK.js": "1db32715c4b2aabcabde27341ff8ac9372e45bcc",
+    "/pwa-demo/chunk-42C7ZIID.js": "9a4312a44cc8ab8573488a48a18c01a6bb352c6b",
+    "/pwa-demo/chunk-43OODBIE.js": "0e1b5b12f60c55e42618d8b967f04eb95acd9c40",
+    "/pwa-demo/chunk-4WFVMWDK.js": "5b6d47107e58373ea3dc79e4e6878406e21505e8",
+    "/pwa-demo/chunk-57YRIO75.js": "7646de8327c9bcd10d9e5774e7203a933e36be11",
+    "/pwa-demo/chunk-AHF2SHA3.js": "a58fa6e45d821c30771d32715e461d1cb09416ef",
+    "/pwa-demo/chunk-BPR2ZQS3.js": "012cfad9e5f97f142bba63844fe532e0fede8360",
+    "/pwa-demo/chunk-C5RQ2IC2.js": "e04375ce73344ebf6057a814b6d3be1852c7d5c7",
+    "/pwa-demo/chunk-FA25AEA4.js": "67b189f290ca6770c1314e442b21f2feb4f64d07",
+    "/pwa-demo/chunk-FMBY5GXM.js": "1287a85afa49ea7505466b6ec9df063b3f9cb74d",
+    "/pwa-demo/chunk-FWQXJR7F.js": "8deee00c88dba61ba1f29baa38a3206d2991c648",
+    "/pwa-demo/chunk-JGEA7HOG.js": "1bd5cd4a5d65ccbdde44e7ec9a29dd2f5fae5274",
+    "/pwa-demo/chunk-JHI3MBHO.js": "a36b3242848dc514776e1c7fd2cc5d64f3a737b2",
+    "/pwa-demo/chunk-K572LGMY.js": "a9e1ec73a9e8eab470047c7d9f3eb855f1afdca4",
+    "/pwa-demo/chunk-M2X7KQLB.js": "7610d018b4a45d32351f6d9f64fb4fa41b99fe9e",
+    "/pwa-demo/chunk-M7FLRKQF.js": "aeb8a4a755788b00d5d2b55ca419227c7789db15",
+    "/pwa-demo/chunk-NSJBRCF4.js": "d236e9ec22e527dee12c8901f78097af8bab9647",
+    "/pwa-demo/chunk-NYXSTOWG.js": "05b51b061922f0a59318d85ced5cccb275eb27f1",
+    "/pwa-demo/chunk-O7BKAQHS.js": "d134e339f74b19e475c884b9be794bcc1570bab2",
+    "/pwa-demo/chunk-PMWHZUUE.js": "40dfe1fc36dae36c4f01934319af6119fea70663",
+    "/pwa-demo/chunk-R5HL6L5F.js": "00bd4b45b0b53fb73a0df82c7b4665e53715a1c3",
+    "/pwa-demo/chunk-R5SHVWC7.js": "a06401b42fec9d12302a1c29f615d031cc734230",
+    "/pwa-demo/chunk-ULUBRAOE.js": "9a1b7a7124e98ca9ae8cfcdeb031307dfe1611bb",
+    "/pwa-demo/chunk-VCHLP75Z.js": "e2994e221761f5b45f682324490debf71e25e4cb",
+    "/pwa-demo/chunk-VPYGZV4D.js": "f6990f0e2035bf5cb2b515f23caebc6b0f1fecc7",
+    "/pwa-demo/chunk-ZUQGWSGF.js": "895986f108ff6929519247f15904d8940bf4bd4d",
+    "/pwa-demo/index.html": "9f58b379f2c584cba603673fa762cc07e7c52d2f",
+    "/pwa-demo/main-7PRVKQMM.js": "c3eb5b3b6517c3ff88fbdb00e3334d51e2a54936",
+    "/pwa-demo/polyfills-6BIPK22E.js": "9dfec73cc0251b9aae0c1b812f877227448710c5",
+    "/pwa-demo/styles-JQSYE4E5.css": "ada75639152fd1772483acdabde28762c03f1ea0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
