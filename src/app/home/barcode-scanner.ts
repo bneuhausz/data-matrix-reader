@@ -13,6 +13,16 @@ export class BarcodeScannerService {
 
   async scan(videoElement?: HTMLVideoElement): Promise<string | null> {
     if (Capacitor.getPlatform() !== 'web') {
+      const { camera } = await BarcodeScanner.checkPermissions();
+      if (camera !== 'granted' && camera !== 'limited') {
+        await BarcodeScanner.requestPermissions();
+      }
+
+      const isAvailable = await BarcodeScanner.isGoogleBarcodeScannerModuleAvailable();
+      if (!isAvailable) {
+        await BarcodeScanner.installGoogleBarcodeScannerModule();
+      }
+
       const result = await BarcodeScanner.scan();
       return result?.barcodes?.[0]?.rawValue ?? null;
     }
