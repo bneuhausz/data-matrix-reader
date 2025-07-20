@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1753024469911,
+  "timestamp": 1753024678886,
   "index": "/data-matrix-reader/index.html",
   "assetGroups": [
     {
@@ -55,6 +55,14 @@
       },
       "urls": [
         "/data-matrix-reader/assets/icon/favicon.png",
+        "/data-matrix-reader/assets/icons/icon-128x128.png",
+        "/data-matrix-reader/assets/icons/icon-144x144.png",
+        "/data-matrix-reader/assets/icons/icon-152x152.png",
+        "/data-matrix-reader/assets/icons/icon-192x192.png",
+        "/data-matrix-reader/assets/icons/icon-384x384.png",
+        "/data-matrix-reader/assets/icons/icon-512x512.png",
+        "/data-matrix-reader/assets/icons/icon-72x72.png",
+        "/data-matrix-reader/assets/icons/icon-96x96.png",
         "/data-matrix-reader/assets/shapes.svg"
       ],
       "patterns": []
@@ -63,6 +71,14 @@
   "dataGroups": [],
   "hashTable": {
     "/data-matrix-reader/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
+    "/data-matrix-reader/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/data-matrix-reader/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/data-matrix-reader/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/data-matrix-reader/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/data-matrix-reader/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/data-matrix-reader/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/data-matrix-reader/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/data-matrix-reader/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/data-matrix-reader/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/data-matrix-reader/chunk-2ME6MZQH.js": "d6cbd5c047ab53d7e6901001972a111f59a5fe18",
     "/data-matrix-reader/chunk-2YSZFPCQ.js": "24059a303257ee4b1b2709f81e7640627fdaa6d9",
