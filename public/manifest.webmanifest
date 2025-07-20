@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "short_name": "app",
+  "name": "data-matrix-reader",
+  "short_name": "dmr",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
